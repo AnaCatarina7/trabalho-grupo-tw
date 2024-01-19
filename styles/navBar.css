@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--light-main);
+    border-radius: 10px;
+    margin: 5px 5px 0px 5px
+}
+
+.website-name {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-main);
+    margin-left: 10px;
+}
+
+.websiteName {
+    background-color: var(--light-main);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hamburguer, .nav-item, .navbar-toggler-icon{
+    background-color: var(--light-main);
+}
+
+#navbarNav {
+    background-color: var(--light-main);
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.search-and-logIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--lighter-main);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px
+}
+
+.signIn {
+    background-color: var(--lighter-main);
+    text-decoration: none;
+    color: black;
+}
+
+.signIn:hover {
+    text-decoration: underline;
+}
+
+.signIn > b {
+    background-color: var(--lighter-main);
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--lighter-main);
+    gap: 5px;
+}
+
+.search {
+    border-radius: 10px;
+    width: 120px;
+    background-color: var(--background-color);
+    border: none
+}
+
+.search-icon {
+    background-color: var(--lighter-main);
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    height: 20px;
+    background-color: var(--lighter-main);
+}

@@ -1,0 +1,16 @@
+@import url(navBar.css);
+@import url(signIn.css);
+
+:root {
+    --lighter-main: #FFD6A4;
+    --light-main: #D7A466;
+    --main-color: #B07A39;
+    --dark-main: #8A5718;
+    --darker-main: #5E3401;
+    --background-color: #F2E9E9;
+}
+
+* {
+    background-color: #F2E9E9;
+    font-family: "Montserrat Alternates", sans-serif;
+}
