@@ -1,5 +1,7 @@
+
 @import url(navBar.css);
 @import url(signIn-logIn.css);
+@import url(footer.css);
 
 :root {
     --lighter-main: #FFD6A4;
@@ -13,4 +15,8 @@
 * {
     background-color: #F2E9E9;
     font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+    background-color: var(--background-main) !important;
 }

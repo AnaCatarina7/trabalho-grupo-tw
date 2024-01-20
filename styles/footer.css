@@ -1,0 +1,47 @@
+.footer {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    height: 120px
+}
+
+.navLinks, .findUs, .createAcc {
+    background-color: white;
+}
+
+.navLinksTitle, .findUsTitle, .createAccTitle,
+.nav-links, .findUsTitle-images, .createAcc-input,
+.nav-opts, .findUsImg, .createAccBtn {
+    background-color: white;
+}
+
+.navLinksTitle, .findUsTitle, .createAccTitle {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    font-size: 13px;
+}
+
+.findUsImg {
+    height: 30px;
+}
+
+.findUsTitle-images {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.createAccBtn {
+    font-size: 13px;
+}
