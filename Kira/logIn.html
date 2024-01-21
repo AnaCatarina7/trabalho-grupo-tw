@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".\styles\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script type="module" src="profile.js"></script>
+</head> 
+<body>
+    <div class="header">
+        <div class="menu">
+            <div class="website-name">
+                <h1 class="websiteName">[name]</h1>
+            </div>
+            
+            <nav class="navbar navbar-expand-sm navbar-light" id="hamburguer">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">opt1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">opt2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">opt3</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="search-and-logIn">
+            <a class="signIn" href="singIn.html">Sign in <b>Here</b></a>
+            <div class="searchBar">
+                <select class="search">
+                    <option value="" disabled selected hidden>search by</option>
+                    <option value="genre">Genre</option>
+                    <option value="artist">Artist</option>
+                </select>
+                <a href="#search" class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.001 256.001" alt="search" class="searchIcon"><rect width="256" height="256" fill="none"></rect><circle cx="116" cy="116" r="84" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" class="colorStroke000000 svgStroke"></circle><line x1="175.394" x2="223.994" y1="175.4" y2="224.001" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" class="colorStroke000000 svgStroke"></line></svg></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-page">
+        <div class="profile-page-title">
+            <h2 class="pageTitle">Log In</h2>
+            <hr>
+        </div>
+
+        <div class="profile-form">
+            <form action="#" method="get" class="signIn-form">
+                <div class="form-parameters">
+                    <label for="username" class="label">Username</label>
+                    <input type="text" class="answer" name="username" id="username" required>
+                </div>
+        
+                <div class="form-parameters">
+                    <label for="password" class="label">Password</label>
+                    <input type="text" class="answer" name="password" id="password" required></input>
+                </div>
+
+                <div class="form-buttons">
+                    <button class="loginButton" href="#" onclick="changeUserLoginHTML(event)">Log in</button>
+                    <div class="signinPage">
+                        <p class="signInText">Don't have an account? <a class="signInLink" href="singIn.html">Sign in <b>Here</b></a>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="navLinks">
+            <div class="nav-links-title">
+                <h3 class="navLinksTitle">Quick Links</h3>
+            </div>
+            <div class="nav-links">
+                <a class="nav-opts" href="index.html">Home</a>
+                <a class="nav-opts" href="#">opt1</a>
+                <a class="nav-opts" href="#">opt2</a>
+                <a class="nav-opts" href="#">opt3</a>
+            </div>
+        </div>
+
+        <div class="findUs">
+            <div class="findUs-title">
+                <h3 class="findUsTitle">Find Us</h3>
+            </div>
+            <div class="findUsTitle-images">
+                <a href="https://open.spotify.com"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Spotify"><path fill="none" d="M0 0h64v64H0z"></path><path d="M32 6C17.65 6 6 17.65 6 32s11.65 26 26 26 26-11.65 26-26S46.35 6 32 6ZM18.978 41.393A26.056 26.056 0 0 1 23.494 41c5.546 0 10.689 1.74 14.911 4.703a1 1 0 1 0 1.149-1.637A27.87 27.87 0 0 0 23.494 39c-1.658 0-3.282.144-4.862.422a1 1 0 0 0 .346 1.97Zm-1.553-7.81a2.002 2.002 0 0 1 1.73-2.333 38.144 38.144 0 0 1 4.339-.25c7.146 0 13.821 2.03 19.479 5.545a1.992 1.992 0 0 1 .561 2.822c.004.009 0 .014-.003.018a2 2 0 0 1-2.711.54A32.747 32.747 0 0 0 23.494 35a33.23 33.23 0 0 0-3.86.224 1.998 1.998 0 0 1-2.205-1.636c-.003-.002-.003-.004-.004-.006Zm-1.821-9.33a2.5 2.5 0 0 1 2.156-2.917A49.12 49.12 0 0 1 23.494 21c9.307 0 17.999 2.654 25.358 7.247a2.487 2.487 0 0 1 .698 3.526c.004.01 0 .016-.004.021a2.5 2.5 0 0 1-3.393.674A42.677 42.677 0 0 0 23.493 26c-1.732 0-3.441.103-5.121.303a2.498 2.498 0 0 1-2.764-2.045c-.003-.002-.004-.004-.004-.006Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+                <a href="https://www.youtube.com"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Youtube"><path fill="none" d="M0 0h64v64H0z"></path><path d="M60 20c0-4.967-4.032-9-9-9H13c-4.967 0-9 4.033-9 9v24c0 4.968 4.033 9 9 9h38c4.968 0 9-4.032 9-9V20ZM42 32 23 42V22l19 10Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+                <a href="https://www.whatsapp.com/?lang=pt_PT"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Whatsapp"><path fill="none" d="M0 0h64v64H0z"></path><path d="M9.78 45.5 6.052 56.685a1.001 1.001 0 0 0 1.265 1.265l11.185-3.73A25.859 25.859 0 0 0 32.001 58c14.35 0 26-11.65 26-26s-11.65-26-26-26-26 11.65-26 26c0 4.943 1.382 9.565 3.779 13.5Zm28.204-9.583-3.535 3.536c-1.093 1.092-3.928.314-7.071-2.83-3.143-3.142-3.921-5.978-2.829-7.07l3.536-3.536-1.915-4.47a4 4 0 0 0-6.505-1.252l-1.762 1.762c-3.747 3.746-1.402 12.175 5.232 18.81 6.635 6.634 15.063 8.979 18.81 5.232l1.761-1.762a3.998 3.998 0 0 0-1.252-6.505l-4.47-1.915Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+                <a href="https://www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Instagram"><path fill="none" d="M0 0h64v64H0z"></path><path d="M58 19c0-7.175-5.824-13-13-13H19C11.825 6 6 11.825 6 19v26c0 7.176 5.825 13 13 13h26c7.176 0 13-5.824 13-13V19Zm-7 1c0-3.863-3.136-7-7-7H20c-3.863 0-7 3.137-7 7v24c0 3.864 3.137 7 7 7h24c3.864 0 7-3.136 7-7V20Zm-2 0v24c0 2.76-2.24 5-5 5H20c-2.76 0-5-2.24-5-5V20c0-2.76 2.24-5 5-5h24c2.76 0 5 2.24 5 5Zm-17 4c4.416 0 8 3.585 8 8 0 4.416-3.584 8-8 8-4.415 0-8-3.584-8-8 0-4.415 3.585-8 8-8Zm11-5a2 2 0 1 1 0 4.002A2 2 0 0 1 43 19Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+            </div>
+        </div>
+
+        <div class="yourAcc">
+            <div class="yourAcc-title">
+                <h3 class="yourAccTitle">Your Account</h3>
+            </div>
+            <div class="yourAcc-input">
+                <a href="profile.html" class="yourAccBtn">Click to Access</a>
+            </div>
+        </div>
+    </footer>                             
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

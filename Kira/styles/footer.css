@@ -1,0 +1,79 @@
+.footer {
+    border-radius: 10px;
+    margin: 134px 5px 5px 5px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    height: 120px
+}
+
+.navLinks, .findUs, .yourAcc {
+    background-color: white;
+}
+
+.navLinksTitle, .findUsTitle, .yourAccTitle,
+.nav-links, .findUsTitle-images, .yourAcc-input,
+.nav-opts, .findUsImg, .yourAccBtn {
+    background-color: white;
+}
+
+.navLinksTitle, .findUsTitle, .yourAccTitle {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    font-size: 13px;
+}
+
+.findUsImg {
+    height: 30px;
+}
+
+.findUsTitle-images {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.yourAccBtn {
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 2px 5px
+}
+
+.yourAccBtn:hover {
+    background-color: var(--light-main);
+}
+
+@media screen and (min-width: 601px) {
+    .footer {
+        border-radius: 10px;
+        margin: 134px 5px 5px 5px;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        border-radius: 10px;
+        margin: 90px 5px 5px 5px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: white;
+        height: 270px;
+        gap: 10px
+    }
+}

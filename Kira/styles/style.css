@@ -1,0 +1,22 @@
+@import url(navBar.css);
+@import url(signIn-logIn.css);
+@import url(profile.css);
+@import url(footer.css);
+
+:root {
+    --lighter-main: #FFD6A4;
+    --light-main: #D7A466;
+    --main-color: #B07A39;
+    --dark-main: #8A5718;
+    --darker-main: #5E3401;
+    --background-color: #F2E9E9;
+}
+
+* {
+    background-color: #F2E9E9;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+    background-color: var(--background-main) !important;
+}
