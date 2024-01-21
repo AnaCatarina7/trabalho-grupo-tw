@@ -1,6 +1,6 @@
 .footer {
     border-radius: 10px;
-    margin: 5px;
+    margin: 134px 5px 5px 5px;
     padding: 10px 20px;
     display: flex;
     flex-direction: row;
@@ -10,17 +10,17 @@
     height: 120px
 }
 
-.navLinks, .findUs, .createAcc {
+.navLinks, .findUs, .yourAcc {
     background-color: white;
 }
 
-.navLinksTitle, .findUsTitle, .createAccTitle,
-.nav-links, .findUsTitle-images, .createAcc-input,
-.nav-opts, .findUsImg, .createAccBtn {
+.navLinksTitle, .findUsTitle, .yourAccTitle,
+.nav-links, .findUsTitle-images, .yourAcc-input,
+.nav-opts, .findUsImg, .yourAccBtn {
     background-color: white;
 }
 
-.navLinksTitle, .findUsTitle, .createAccTitle {
+.navLinksTitle, .findUsTitle, .yourAccTitle {
     font-size: 20px;
     margin-top: 10px;
 }
@@ -42,6 +42,38 @@
     gap: 10px
 }
 
-.createAccBtn {
+.yourAccBtn {
     font-size: 13px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 2px 5px
+}
+
+.yourAccBtn:hover {
+    background-color: var(--light-main);
+}
+
+@media screen and (min-width: 601px) {
+    .footer {
+        border-radius: 10px;
+        margin: 134px 5px 5px 5px;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        border-radius: 10px;
+        margin: 90px 5px 5px 5px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: white;
+        height: 270px;
+        gap: 10px
+    }
 }
