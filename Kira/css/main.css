@@ -1,7 +1,13 @@
+@import url(style.css);
 @import url(navBar.css);
 @import url(signIn-logIn.css);
 @import url(profile.css);
 @import url(footer.css);
+@import url(artist.css);
+@import url(genre.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700&display=swap');
+
 
 :root {
     --lighter-main: #FFD6A4;

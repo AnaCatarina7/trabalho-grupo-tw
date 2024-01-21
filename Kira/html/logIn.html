@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href=".\styles\style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <div class="header">
         <div class="menu">
             <div class="website-name">
-                <h1 class="websiteName">[name]</h1>
+                <h1 class="websiteName">SoundAround</h1>
             </div>
             
             <nav class="navbar navbar-expand-sm navbar-light" id="hamburguer">
@@ -55,36 +55,32 @@
         </div>
     </div>
 
-    <div class="profile">
-        <div class="liked">
-            <div class="profile-title">
-                <h2 class="pageTitle">Liked Albums</h2>
-                <hr>
-            </div>
-            <div class="likedContent">
-
-            </div>
+    <div class="profile-page">
+        <div class="profile-page-title">
+            <h2 class="pageTitle">Log In</h2>
+            <hr>
         </div>
 
-        <div class="liked">
-            <div class="profile-title">
-                <h2 class="pageTitle">Liked Artists</h2>
-                <hr>
-            </div>
-            <div class="likedContent">
+        <div class="profile-form">
+            <form action="#" method="get" class="signIn-form">
+                <div class="form-parameters">
+                    <label for="username" class="label">Username</label>
+                    <input type="text" class="answer" name="username" id="username" required>
+                </div>
+        
+                <div class="form-parameters">
+                    <label for="password" class="label">Password</label>
+                    <input type="text" class="answer" name="password" id="password" required></input>
+                </div>
+
+                <div class="form-buttons">
+                    <button class="loginButton" href="#" onclick="changeUserLoginHTML(event)">Log in</button>
+                    <div class="signinPage">
+                        <p class="signInText">Don't have an account? <a class="signInLink" href="singIn.html">Sign in <b>Here</b></a>
+                    </div>
+                </div>
                 
-            </div>
-        </div>
-
-        <div class="liked">
-            <div class="profile-title">
-                <h2 class="pageTitle">Liked Songs</h2>
-                <hr>
-            </div>
-            <div class="likedContent">
-                
-            </div>
-        </div>
+            </form>
         </div>
     </div>
 
@@ -122,7 +118,7 @@
                 <a href="profile.html" class="yourAccBtn">Click to Access</a>
             </div>
         </div>
-    </footer>                        
+    </footer>                             
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
