@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- header -->
+  
+  <div class="header">
+    <div class="menu">
+        <div class="website-name">
+            <h1 class="websiteName">SoundAround</h1>
+        </div>
+        
+        <nav class="navbar navbar-expand-sm navbar-light" id="hamburguer">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="genres.html">Genres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="search-and-logIn">
+        <a class="signIn" href="singIn.html">Sign in <b>Here</b></a>
+        <div class="searchBar">
+            <select class="search">
+                <option value="" disabled selected hidden>search by</option>
+                <option value="genre">Genre</option>
+                <option value="artist">Artist</option>
+            </select>
+            <a href="#search" class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.001 256.001" alt="search" class="searchIcon"><rect width="256" height="256" fill="none"></rect><circle cx="116" cy="116" r="84" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" class="colorStroke000000 svgStroke"></circle><line x1="175.394" x2="223.994" y1="175.4" y2="224.001" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" class="colorStroke000000 svgStroke"></line></svg></a>
+        </div>
+    </div>
+  </div>
+
+<!-- Genres -->
+  <div class="genres_header">
+    <h1>Genres</h1>
+    <h2><a href="./genres.html">See All</a></h2>
+  </div>
+  <div class="genres_grid">
+    <div class="genres_card">
+        <a href="#">
+            <img src="./imagens/rock genre.jpg" alt="rock genre"/>
+        </a>
+        <h3><a href="#" class="genre-link">ROCK</a></h3>
+    </div>
+    <div class="genres_card">
+        <a href="#">
+            <img src="./imagens/pop genre.jpg" alt="pop genre"/>
+        </a>
+        <h3><a href="#" class="genre-link">POP</a></h3>
+    </div>
+    <div class="genres_card">
+        <a href="#">
+            <img src="./imagens/indie.jpg" alt="indie genre"/>
+        </a>
+        <h3><a href="#" class="genre-link">INDIE</a></h3>
+    </div>
+    <div class="genres_card">
+        <a href="#">
+            <img src="./imagens/punk genre.jpg" alt="punk genre"/>
+        </a>
+        <h3><a href="#" class="genre-link">PUNK</a></h3>
+    </div>   
+  </div>           
+
+<!-- Carousel Albums -->
+
+  <h1>Top Albums</h1>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner w-80">
+      <div class="carousel-item active">
+        <div class="d-flex">
+          <img src="./imagens/fake it flowers beabadoobee.webp" class="d-block w-20 px-3" alt="fake it flowers by beabadoobee">
+          <img src="./imagens/youngblood 5sos.PNG" class="d-block w-20 px-3" alt="youngblood by 5sos">
+          <img src="./imagens/golden by jungkook.PNG" class="d-block w-20 px-3" alt="golden by jung kook">
+          <img src="./imagens/american beauty_american psycho - fall out boy.PNG" class="d-block w-20 px-3" alt= "american beauty/american psycho by fall out boy">
+          <img src="./imagens/Troye Sivan - Blue Neighborhood.jpg"class= "d-block w-20 px-3"alt= "blue neighborhood by troye sivan">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex">
+          <img src="./imagens/born to die lana del rey.PNG" class="d-block w-20 px-3" alt="born to die by lana del rey">
+          <img src="./imagens/who really cares tv girl.jpg" class="d-block w-20 px-3" alt="who really cares by tv girl">
+          <img src="./imagens/the bastards palaye royale.PNG" class="d-block w-20 px-3" alt="the bastards by palaye royale">
+          <img src="./imagens/brand new eyes paramore.PNG" class="d-block w-20 px-3" alt= "brand new eyes by paramore">
+          <img src="./imagens/semicolon seventeen.PNG"class="d-block w-20 px-3"alt= "semicolon by seventeen">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Top Songs -->
+
+<h1>Top Songs</h1>
+<table class="table table-hover table-sm table-responsive table-borderer ">
+  <thead style="--bs-table-bg: rgb(229, 210, 197)";>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Song</th>
+      <th scope="col">Album</th>
+      <th scope="col">Minutes</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="--bs-table-bg: rgb(242, 233, 233)">
+      <th scope="row">1</th>
+      <td class="song-info">
+        <img src="./imagens/song taylor swift.PNG" alt="Is It Over Now? (Taylor´s Version) by taylor swift"/>
+        <div>
+          <h5>Is It Over Now? (Taylor´s Version)</h5>
+          <p><a href="#">Taylor Swift</a></p>
+        </div>
+      </td>
+      <td>1989 (Taylor´s Version)</td>
+      <td>3:49</td>
+      <td><i class="bi bi-heart"></i></td>
+    </tr>
+    <tr style="--bs-table-bg: rgb(242, 233, 233)">
+      <th scope="row">2</th>
+      <td class="song-info">
+        <img src="./imagens/song beabadoobee.PNG" alt="sorry by beabadoobee"/>
+        <div>
+          <h5>Sorry</h5>
+          <p><a href="#">Beabadoobee</a></p>
+        </div>
+      </td>
+      <td>Fake It Flowers</td>
+      <td>3:53</td>
+      <td><i class="bi bi-heart"></i></td>
+    </tr>
+    <tr style="--bs-table-bg: rgb(242, 233, 233)">
+      <th scope="row">3</th>
+      <td class="song-info">
+        <img src="./imagens/song spice girls.PNG" alt="say you´ll be there by spice girls"/>
+        <div>
+          <h5>Say You´ll Be There</h5>
+          <p><a href="#">Spice Girls</a></p>
+        </div>
+      </td>
+      <td>Spice</td>
+      <td>3:55</td>
+      <td><i class="bi bi-heart"></i></td>
+    </tr>
+    <tr style="--bs-table-bg: rgb(242, 233, 233)">
+      <th scope="row">4</th>
+      <td class="song-info">
+        <img src="./imagens/youngblood 5sos.PNG" alt="if walls could talk by 5sos"/>
+        <div>
+          <h5>If Walls Could Talk</h5>
+          <p><a href="#">5 Seconds Of Summer</a></p>
+        </div>
+      </td>
+      <td>Youngblood</td>
+      <td>3:02</td>
+      <td><i class="bi bi-heart"></i></td>
+    </tr>
+    <tr style="--bs-table-bg: rgb(242, 233, 233)">
+      <th scope="row">5</th>
+      <td class="song-info">
+        <img src="./imagens/born to die lana del rey.PNG" alt="summertime sadness by lana del rey"/>
+        <div>
+          <h5>Summertime Sadness</h5>
+          <p><a href="#">Lana Del Rey</a></p>
+        </div>
+      </td>
+      <td>Born To Die</td>
+      <td>4:25</td>
+      <td><i class="bi bi-heart"></i></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- Top Artists -->
+<h1>Top Artists</h1>
+<div class="artists">
+<a href="./Artists/Ariana.html">
+  <div class="card">
+      <img src="./imagens/taylor.jpg" style="width:100%" class="artist" alt="taylor swift">
+      <h4><b>Taylor Swift</b></h4>
+  </div>
+</a>
+<a href=".//Artists/Taylor.html">
+  <div class="card">
+      <img src="./imagens/5sos.jpg" style="width:100%" class="artist" alt="5 seconds of summer">
+      <h4><b>5 Seconds Of Summer</b></h4>
+  </div>
+</a>
+<a href=".//Artists/Sabrina.html">
+  <div class="card">
+      <img src="./imagens/troye sivan.PNG" style="width:100%" class="artist" alt="troye sivan">
+      <h4><b>Troye Sivan</b></h4>
+  </div>
+</a>
+<a href=".//Artists/Sabrina.html">
+  <div class="card">
+      <img src="./imagens/jungkook.jpeg" style="width:100%" class="artist" alt="jungkook">
+      <h4><b>JungKook</b></h4>
+  </div>
+</a>
+<a href=".//Artists/Sabrina.html">
+  <div class="card">
+      <img src="./imagens/lana del rey.PNG" style="width:100%" class="artist" alt="lana del rey">
+      <h4><b>Lana Del Rey</b></h4>
+  </div>
+</a>
+</div>
+
+<footer class="footer">
+  <div class="navLinks">
+      <div class="nav-links-title">
+          <h3 class="navLinksTitle">Quick Links</h3>
+      </div>
+      <div class="nav-links">
+          <a class="nav-opts" href="index.html">Home</a>
+          <a class="nav-opts" href="genres.html">Genres</a>
+          <a class="nav-opts" href="profile.html">Profile</a>
+      </div>
+  </div>
+
+  <div class="findUs">
+      <div class="findUs-title">
+          <h3 class="findUsTitle">Find Us</h3>
+      </div>
+      <div class="findUsTitle-images">
+          <a href="https://open.spotify.com"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Spotify"><path fill="none" d="M0 0h64v64H0z"></path><path d="M32 6C17.65 6 6 17.65 6 32s11.65 26 26 26 26-11.65 26-26S46.35 6 32 6ZM18.978 41.393A26.056 26.056 0 0 1 23.494 41c5.546 0 10.689 1.74 14.911 4.703a1 1 0 1 0 1.149-1.637A27.87 27.87 0 0 0 23.494 39c-1.658 0-3.282.144-4.862.422a1 1 0 0 0 .346 1.97Zm-1.553-7.81a2.002 2.002 0 0 1 1.73-2.333 38.144 38.144 0 0 1 4.339-.25c7.146 0 13.821 2.03 19.479 5.545a1.992 1.992 0 0 1 .561 2.822c.004.009 0 .014-.003.018a2 2 0 0 1-2.711.54A32.747 32.747 0 0 0 23.494 35a33.23 33.23 0 0 0-3.86.224 1.998 1.998 0 0 1-2.205-1.636c-.003-.002-.003-.004-.004-.006Zm-1.821-9.33a2.5 2.5 0 0 1 2.156-2.917A49.12 49.12 0 0 1 23.494 21c9.307 0 17.999 2.654 25.358 7.247a2.487 2.487 0 0 1 .698 3.526c.004.01 0 .016-.004.021a2.5 2.5 0 0 1-3.393.674A42.677 42.677 0 0 0 23.493 26c-1.732 0-3.441.103-5.121.303a2.498 2.498 0 0 1-2.764-2.045c-.003-.002-.004-.004-.004-.006Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+          <a href="https://www.youtube.com"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Youtube"><path fill="none" d="M0 0h64v64H0z"></path><path d="M60 20c0-4.967-4.032-9-9-9H13c-4.967 0-9 4.033-9 9v24c0 4.968 4.033 9 9 9h38c4.968 0 9-4.032 9-9V20ZM42 32 23 42V22l19 10Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+          <a href="https://www.whatsapp.com/?lang=pt_PT"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Whatsapp"><path fill="none" d="M0 0h64v64H0z"></path><path d="M9.78 45.5 6.052 56.685a1.001 1.001 0 0 0 1.265 1.265l11.185-3.73A25.859 25.859 0 0 0 32.001 58c14.35 0 26-11.65 26-26s-11.65-26-26-26-26 11.65-26 26c0 4.943 1.382 9.565 3.779 13.5Zm28.204-9.583-3.535 3.536c-1.093 1.092-3.928.314-7.071-2.83-3.143-3.142-3.921-5.978-2.829-7.07l3.536-3.536-1.915-4.47a4 4 0 0 0-6.505-1.252l-1.762 1.762c-3.747 3.746-1.402 12.175 5.232 18.81 6.635 6.634 15.063 8.979 18.81 5.232l1.761-1.762a3.998 3.998 0 0 0-1.252-6.505l-4.47-1.915Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+          <a href="https://www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="findUsImg" clip-rule="evenodd" viewBox="0 0 64 64" id="Instagram"><path fill="none" d="M0 0h64v64H0z"></path><path d="M58 19c0-7.175-5.824-13-13-13H19C11.825 6 6 11.825 6 19v26c0 7.176 5.825 13 13 13h26c7.176 0 13-5.824 13-13V19Zm-7 1c0-3.863-3.136-7-7-7H20c-3.863 0-7 3.137-7 7v24c0 3.864 3.137 7 7 7h24c3.864 0 7-3.136 7-7V20Zm-2 0v24c0 2.76-2.24 5-5 5H20c-2.76 0-5-2.24-5-5V20c0-2.76 2.24-5 5-5h24c2.76 0 5 2.24 5 5Zm-17 4c4.416 0 8 3.585 8 8 0 4.416-3.584 8-8 8-4.415 0-8-3.584-8-8 0-4.415 3.585-8 8-8Zm11-5a2 2 0 1 1 0 4.002A2 2 0 0 1 43 19Z" fill="#b07a39" class="color000000 svgShape"></path></svg></a>
+      </div>
+  </div>
+
+  <div class="yourAcc">
+      <div class="yourAcc-title">
+          <h3 class="yourAccTitle">Your Account</h3>
+      </div>
+      <div class="yourAcc-input">
+          <a href="profile.html" class="yourAccBtn">Click to Access</a>
+      </div>
+  </div>
+</footer>
+     
+</body>
+</html

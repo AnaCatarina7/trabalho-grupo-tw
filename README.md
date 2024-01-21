@@ -1,6 +1,5 @@
 ![Generic badge](https://img.shields.io/badge/status-in%20progress-827397)
 
-
 <hr>
 
 ## Team:
@@ -43,9 +42,13 @@ Communication between the members of the team:
 
 ![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 
-
 <hr>
 
 ## About the project:
 
-- content -
+Dado que existiram erros na junção do código dos membros do grupo, existem duas pastas neste repositório:
+
+- trabalho junto - uma pasta que contem os ficheiros devidamente linkados entre si, porém com erros de formatação
+- trabalho separado - onde cada pasta contem o trabalho realizado por cada membro do grupo, separadamente
+
+Houve diversos problemas com o repositório do gitHub, nomeadamente nos commits e na criação de branches. Por esse motivo, o código final encontra-se separado por 2 pastas
